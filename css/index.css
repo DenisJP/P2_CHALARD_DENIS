@@ -1,3 +1,11 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/**************** Font settings ******************/
+
 @font-face
 {
 font-family: "Raleway";
@@ -9,4 +17,32 @@ src:
 *
 {
     font-family: 'Raleway', sans-serif;
+}
+
+/*************** Nav bar settings *******************/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+nav a
+{
+    text-decoration: none;
+}
+.nav_link_hebergement
+{
+    margin-right: 50px;
+    color: #0065FC;
+}
+.nav_link_activite
+{
+    color:grey;
+    margin-right: 10px;
+}
+a:hover
+{
+    border-top: solid 3px #0065FC;
+    padding: 55px;
 }
