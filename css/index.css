@@ -64,3 +64,22 @@ a:hover
     font-size: 12px;
     color:grey;
 }
+
+/*************** research bar *******************/
+#search_bar
+{
+   display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#research
+{
+
+   background-color:#0065FC;
+   color:white;
+   min-height: 34px;
+}
+#town
+{
+    min-height: 30px;
+}
