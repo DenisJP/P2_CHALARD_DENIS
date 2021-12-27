@@ -74,12 +74,30 @@ a:hover
 }
 #research
 {
-
-   background-color:#0065FC;
-   color:white;
-   min-height: 34px;
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
 #town
 {
-    min-height: 30px;
+    min-height: 36px;
+    width: 200px;
+    border: solid 1px grey;
+    font-weight: bold;
+}
+
+/********************** filter **************************/
+#filter
+{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
 }
