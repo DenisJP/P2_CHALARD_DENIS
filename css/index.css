@@ -90,6 +90,10 @@ a:hover
     border: solid 1px grey;
     font-weight: bold;
 }
+#search-icon
+{
+    color: black;
+}
 
 /********************** filter **************************/
 #filter
@@ -100,4 +104,8 @@ a:hover
     padding-top: 20px;
     margin-left: 10px;
     font-weight: bold;
+}
+#filter .fas
+{
+  color: #0065FC;
 }
