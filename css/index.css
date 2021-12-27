@@ -109,3 +109,10 @@ a:hover
 {
   color: #0065FC;
 }
+.filter-button
+{
+    border: solid 1px black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 8px;
+}
