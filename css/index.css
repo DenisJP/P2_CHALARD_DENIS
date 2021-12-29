@@ -130,4 +130,7 @@ a:hover
 
 
 /************************ marseille houses **********************************/
-
+#house_main_title
+{
+    font-weight: bold;
+}
