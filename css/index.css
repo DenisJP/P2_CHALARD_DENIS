@@ -98,6 +98,7 @@ a:hover
 /********************** filter **************************/
 #filter
 {
+
     display: flex;
     justify-content: space-between;
     width: 900px;
@@ -113,6 +114,7 @@ a:hover
 #filter .fas
 {
   color: #0065FC;
+  padding-right: 15px;
 }
 .filter-button
 {
