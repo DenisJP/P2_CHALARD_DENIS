@@ -133,4 +133,6 @@ a:hover
 #house_main_title
 {
     font-weight: bold;
+    padding-top: 50px;
+    padding-left: 10px;
 }
