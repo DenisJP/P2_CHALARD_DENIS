@@ -129,10 +129,63 @@ a:hover
 }
 
 
-/************************ marseille houses **********************************/
+/************************ Marseille houses **********************************/
 #house_main_title
 {
     font-weight: bold;
     padding-top: 50px;
     padding-left: 10px;
 }
+.card
+{
+    width: 800px;
+    height: 400px;
+    background-color:#F2F2F2;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.card a
+{
+    text-decoration: none;
+}
+.card a:hover
+{
+    pointer-events: none; /* Disable hover action*/
+    text-decoration: none;
+}
+.item-container
+{
+    padding-top:5px;
+    padding-left:5px;
+    width:215px ;
+    height:180px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.house_picture 
+{
+    object-fit: cover;
+    width: 210px;
+    height: 112px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container h4
+{
+    font-weight: bold;
+    color:black;
+}
+.container p
+{
+    color:grey;
+}
+.notation
+{
+    color:#0065FC;
+}
+
+
