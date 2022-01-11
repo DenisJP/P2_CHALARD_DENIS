@@ -138,9 +138,13 @@ a:hover
 }
 .card
 {
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     width: 800px;
     height: 700px;
     background-color:#F2F2F2;
@@ -190,9 +194,15 @@ a:hover
 {
     color:#0065FC;
 }
-
+.popular_main_title
+{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 10px;
+}
 .popular_card
 {
+    align-items: center;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
