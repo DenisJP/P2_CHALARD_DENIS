@@ -162,10 +162,11 @@ a:hover
 }
 .item-container
 {
+    margin-right: 20px;
     padding-top:5px;
     padding-left:5px;
     width:215px ;
-    height:180px;
+    height:190px;
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -220,4 +221,10 @@ a:hover
 {
     pointer-events: none; /* Disable hover action*/
     text-decoration: none;
+}
+.activity_main_title
+{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 10px;
 }
