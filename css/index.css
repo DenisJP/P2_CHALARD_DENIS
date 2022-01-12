@@ -244,6 +244,8 @@ a:hover
 {
     display: flex;
     background-color:#999999;
+    width: 980px;
+    height: 300px;
 }
 .activity a
 {
@@ -253,4 +255,8 @@ a:hover
 {
     pointer-events: none;
     text-decoration: none;
+}
+.footer
+{
+    display: flex;
 }
