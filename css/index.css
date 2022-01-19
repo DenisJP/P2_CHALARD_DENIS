@@ -637,9 +637,21 @@ footer {
     flex-wrap: wrap;
     margin: 0;
   }
-  /* test here */
-  
-  /* fin test */
+  header
+  {
+    flex-direction: column;
+  }
+  #logo
+  {
+    justify-content: center;
+  }
+  nav a:hover
+  {
+    border-top: none;
+    border-bottom: solid 3px #0065FC;
+    
+  }
+
 #heco:hover {
   background-color: #DEEBFF;
   border-radius: 20px;
@@ -682,7 +694,7 @@ footer {
     width: 100%;
     max-width: 90%;
   }
-}
+
 .twoCardsContainer {
   flex-direction: column;
   height: 100%;
@@ -694,6 +706,7 @@ footer {
 }
 .cardsInline {
   flex-direction: column;
+  min-width: 100%;
 }
 footer {
   flex-direction: column;
@@ -703,4 +716,5 @@ footer {
 
 .footerContent {
   align-items: center;
+}
 }
