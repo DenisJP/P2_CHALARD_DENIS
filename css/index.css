@@ -648,8 +648,15 @@ footer {
   nav a:hover
   {
     border-top: none;
-    border-bottom: solid 3px #0065FC;
-    
+    border-bottom: solid 3px #0065FC;  
+  }
+  #searchicon
+  {
+    display: flex;
+  }
+  #rechercher
+  {
+    display: none;
   }
 
 #heco:hover {
