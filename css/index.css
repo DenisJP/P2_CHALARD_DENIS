@@ -506,7 +506,7 @@ footer {
   position: relative;
   right: 20px;
   padding: 8px 15px 8px 25px;
- border: 3px solid #F2F2F2;
+  border: 3px solid #F2F2F2;
   border-radius: 0 20px 20px 0;
   white-space: nowrap;
   margin-right: -20px;
@@ -691,6 +691,12 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  #accommodations .card
+  {
+    width: 100%;
+    max-width: 90%;
+  }
+  
   #pluspopulairesCardsContainer {
     flex-direction: column;
     width: 100%;
