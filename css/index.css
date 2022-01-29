@@ -85,8 +85,6 @@ nav {
   
 }
 
-
-
 .nav:hover {
   border-top: 2px solid #0065fc;
   position: relative;
@@ -645,8 +643,13 @@ footer {
   {
     justify-content: center;
   }
-  nav a:hover
+  #hébergements:hover
   {
+    border-top: none;
+    border-bottom: solid 3px #0065FC;  
+  }
+  .nav:hover
+  { 
     border-top: none;
     border-bottom: solid 3px #0065FC;  
   }
@@ -730,4 +733,5 @@ footer {
 .footerContent {
   align-items: center;
 }
+
 }
