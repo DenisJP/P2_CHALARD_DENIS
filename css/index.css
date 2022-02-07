@@ -659,6 +659,10 @@ footer {
     border-top: none;
     border-bottom: solid 3px #0065FC;  
   }
+  .nav
+  {
+    border-bottom: solid 3px rgb(241, 234, 234);
+  }
   #searchicon
   {
     display: flex;
