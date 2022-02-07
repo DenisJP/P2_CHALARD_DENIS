@@ -553,6 +553,12 @@ footer {
     justify-content: space-between;
     width: 100%;
   }
+  #pluspopulairesCardsContainer .cardText #text_cut
+  {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 
   #populairestitre{
     max-width: 90%;
